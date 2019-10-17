@@ -1,21 +1,3 @@
-// $("li").click(function(){
-//     if($(this).css("color") === "rgb(128, 128, 128)") {
-//         $(this).css({
-//             color: "black",
-//             textDecoration: "none"
-//         });
-//     } else {
-//         $(this).css({
-//             color: "gray",
-//             textDecoration: "Line-through"
-//         });
-//     };
-// });
-
-// $("li").click(function(event){
-//     console.log("Old ToDo.")
-// });
-
 $("ul").on("click", "li", function(){
     $(this).toggleClass("completed");
 });
@@ -61,3 +43,5 @@ $("i.fas.fa-plus-square").clik(function() {
 //         //file exists : Todo moet veranderen in een "play galgje optie"
 //     }
 // });
+
+// Based on course "The Web Developer Bootcamp | Udemy" from Colt Steele
